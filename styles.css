@@ -1,0 +1,79 @@
+.container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #3b3c3e;
+  background-image: url("sky.png");
+}
+
+h2 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ecca3;
+}
+/* .rolled-container {
+  margin: auto;
+  width: 30%;
+  color: #4ecca3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+} */
+.total {
+  padding: 10px;
+  color: #fff;
+  margin: 0 auto;
+  width: 20%;
+  font-size: 1.8rem;
+}
+
+img {
+  width: 80%;
+}
+.btn-container {
+  margin-top: 5%;
+}
+.btn {
+  margin: auto;
+
+  text-align: center;
+  background: #34ced9;
+  background-image: -webkit-linear-gradient(top, #34ced9, #b8952b);
+  background-image: -moz-linear-gradient(top, #34ced9, #b8952b);
+  background-image: -ms-linear-gradient(top, #34ced9, #b8952b);
+  background-image: -o-linear-gradient(top, #34ced9, #b8952b);
+  background-image: linear-gradient(to bottom, #34ced9, #b8952b);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 3px #d6f013;
+  -moz-box-shadow: 0px 1px 3px #d6f013;
+  box-shadow: 0px 1px 3px #d6f013;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+footer {
+  margin-top: 9%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
